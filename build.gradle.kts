@@ -45,5 +45,7 @@ dependencies {
     compile("com.vaadin:vaadin-themes:${versions.vaadin}")
     compile("com.vaadin:vaadin-client-compiled:${versions.vaadin}")
 
-    compile("com.sparkjava:spark-core:${versions.spark}")
+    compile("com.sparkjava:spark-core:2.5.5")
+//    compile("com.sparkjava:spark-core:${versions.spark}")
+    compile(files("libs/spark-core-2.5.6-SNAPSHOT.jar"))
 }
