@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/spark-vaadin-all.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/*-all.jar
